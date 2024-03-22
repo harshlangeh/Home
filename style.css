@@ -33,14 +33,11 @@ text-align: left;
 .btn {
     color: #0084FF;
 }
+
 .btn :hover {
     color: #00FFB9 !important;
 }
 
-.carousel {
-    width: 80px;
-    height: 80px;
-}
 
 .carousel-control-prev-icon,.carousel-control-next-icon {
         background-color: #00FFB9;
