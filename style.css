@@ -37,6 +37,11 @@ text-align: left;
     color: #00FFB9;
 }
 
+.carousel-inner {
+    width: 80px;
+    height: 80px;
+}
+
 .carousel-control-prev-icon,.carousel-control-next-icon {
         background-color: #00FFB9;
             border-radius: 50%;
