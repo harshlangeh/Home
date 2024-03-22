@@ -34,7 +34,7 @@ text-align: left;
     color: #0084FF;
 }
 .btn :hover {
-    color: #00FFB9;
+    color: #00FFB9 !important;
 }
 
 .carousel-inner {
