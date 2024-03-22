@@ -30,10 +30,13 @@ text-align: left;
     margin: 10px, 10px, 10px, 10px !important ;
 }
 
+.btn {
+    color: #0084FF;
+}
 
 .carousel-control-prev-icon,.carousel-control-next-icon {
         background-color: rgb(0, 234, 255);
             border-radius: 50%;
             padding: 10px;
-            color: blue !important;
+            color: #0084FF !important;
          }

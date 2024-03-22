@@ -28,13 +28,11 @@ document.addEventListener("DOMContentLoaded", function() {
   
   async function fetchNews(index){
     try {
-    //   let url = `https://api.rss2json.com/v1/api.json?rss_url=`
+
       const newsRawApiData = await fetch(url[index]);
-    //   const newsRawApiData = await fetch(url + magazines[index]);
+
       const newsData = await newsRawApiData.json();
-      // console.log("tech_infn=",newsData)
-      // console.log("tech_infn=====",newsData.items)
-  
+
       updateCarousel(newsData.items, index)
     } catch (error) {
       console.log(error)
